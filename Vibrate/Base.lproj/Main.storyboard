@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4d-zx-EEq">
+                                <rect key="frame" x="85" y="20" width="150" height="20"/>
+                                <state key="normal" title="MessageRecieved.caf"/>
+                                <connections>
+                                    <action selector="vibrateIt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C64-lA-XKT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAT-Hc-T7W">
+                                <rect key="frame" x="102" y="50" width="117" height="20"/>
+                                <state key="normal" title="airdrop_invite.caf"/>
+                                <connections>
+                                    <action selector="airDropInviteSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lfW-OA-BtT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lqp-uc-CsF">
+                                <rect key="frame" x="82" y="110" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-popcorn.caf"/>
+                                <connections>
+                                    <action selector="beepBeepSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aXw-4R-f4i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHM-67-oKZ">
+                                <rect key="frame" x="82" y="75" width="156" height="30"/>
+                                <state key="normal" title="sms-alert-bamboo.caf"/>
+                                <connections>
+                                    <action selector="bambooSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fkb-Bx-jRR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uhf-ax-8nQ">
+                                <rect key="frame" x="125" y="540" width="76" height="20"/>
+                                <state key="normal" title="TEMPLATE"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2V7-Na-XXN">
+                                <rect key="frame" x="82" y="140" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-hello.caf"/>
+                                <connections>
+                                    <action selector="helloSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LiG-GM-1Z3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eui-2l-CWw">
+                                <rect key="frame" x="82" y="170" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-keys.caf"/>
+                                <connections>
+                                    <action selector="keysSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nqa-au-jTd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYR-Yt-KMd">
+                                <rect key="frame" x="82" y="200" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-input.caf"/>
+                                <connections>
+                                    <action selector="inputSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZoT-o2-hjZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fK-v7-jHf">
+                                <rect key="frame" x="82" y="230" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-note.caf"/>
+                                <connections>
+                                    <action selector="noteSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y7K-b6-v7W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20v-rT-NHv">
+                                <rect key="frame" x="82" y="260" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-aurora.caf"/>
+                                <connections>
+                                    <action selector="auroraSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lhl-kD-MCV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6w-pg-5tt">
+                                <rect key="frame" x="82" y="290" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-synth.caf"/>
+                                <connections>
+                                    <action selector="synthSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mLQ-wm-1az"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzi-GG-3BS">
+                                <rect key="frame" x="79" y="318" width="162" height="20"/>
+                                <state key="normal" title="sms-alert-complete.caf"/>
+                                <connections>
+                                    <action selector="completeSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WX1-Cj-VO8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="140" y="322"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eu8-sC-b9w">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dgP-Ru-eVu" sceneMemberID="firstResponder"/>
+                <viewController id="bIc-Q6-96g" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yzT-Zc-XPo"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lhy-Fu-8vX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YlY-WY-3jz">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBb-VO-5mn">
+                                <rect key="frame" x="85" y="20" width="150" height="20"/>
+                                <state key="normal" title="MessageRecieved.caf"/>
+                                <connections>
+                                    <action selector="vibrateIt:" destination="bIc-Q6-96g" eventType="touchUpInside" id="zN7-ia-xWw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puD-bv-zBd">
+                                <rect key="frame" x="102" y="50" width="117" height="20"/>
+                                <state key="normal" title="airdrop_invite.caf"/>
+                                <connections>
+                                    <action selector="airDropInviteSound:" destination="bIc-Q6-96g" eventType="touchUpInside" id="jkJ-3S-6hX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZw-gc-eR2">
+                                <rect key="frame" x="82" y="110" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-popcorn.caf"/>
+                                <connections>
+                                    <action selector="beepBeepSound:" destination="bIc-Q6-96g" eventType="touchUpInside" id="1T3-pD-U3K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3Y-jX-27C">
+                                <rect key="frame" x="82" y="75" width="156" height="30"/>
+                                <state key="normal" title="sms-alert-bamboo.caf"/>
+                                <connections>
+                                    <action selector="bambooSound:" destination="bIc-Q6-96g" eventType="touchUpInside" id="jHK-BR-XuP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ob-tb-Mgl">
+                                <rect key="frame" x="125" y="540" width="76" height="20"/>
+                                <state key="normal" title="TEMPLATE"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8y-Rl-LoX">
+                                <rect key="frame" x="82" y="140" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-hello.caf"/>
+                                <connections>
+                                    <action selector="helloSound:" destination="bIc-Q6-96g" eventType="touchUpInside" id="hd3-tE-rH0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1S9-ZH-WZq">
+                                <rect key="frame" x="82" y="170" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-keys.caf"/>
+                                <connections>
+                                    <action selector="keysSound:" destination="bIc-Q6-96g" eventType="touchUpInside" id="jcd-Bo-oiM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0G4-zN-ovb">
+                                <rect key="frame" x="82" y="200" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-input.caf"/>
+                                <connections>
+                                    <action selector="inputSound:" destination="bIc-Q6-96g" eventType="touchUpInside" id="9vq-mw-RXc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFz-8o-4k3">
+                                <rect key="frame" x="82" y="230" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-note.caf"/>
+                                <connections>
+                                    <action selector="noteSound:" destination="bIc-Q6-96g" eventType="touchUpInside" id="KqU-T0-W4C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpg-RY-3ha">
+                                <rect key="frame" x="82" y="260" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-aurora.caf"/>
+                                <connections>
+                                    <action selector="auroraSound:" destination="bIc-Q6-96g" eventType="touchUpInside" id="dx4-d2-d1M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlJ-Gk-SBp">
+                                <rect key="frame" x="82" y="290" width="156" height="20"/>
+                                <state key="normal" title="sms-alert-synth.caf"/>
+                                <connections>
+                                    <action selector="synthSound:" destination="bIc-Q6-96g" eventType="touchUpInside" id="Bsb-Xv-ift"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4H-Eo-hMf">
+                                <rect key="frame" x="330" y="20" width="162" height="20"/>
+                                <state key="normal" title="sms-alert-complete.caf"/>
+                                <connections>
+                                    <action selector="completeSound:" destination="bIc-Q6-96g" eventType="touchUpInside" id="6P7-T5-UtT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="483" y="322"/>
+        </scene>
+    </scenes>
+</document>
